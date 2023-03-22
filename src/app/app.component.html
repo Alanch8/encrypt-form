@@ -1,19 +1,19 @@
-<h1 class="text-center">Encrypt-Decrypt with AES</h1>  
-<br>  
+<h1 class="text-center">Encrypt with AES</h1>  
 <div>  
-  <div class="row">  
-    <div class="col-sm-6"> 
+  <div class="width:100px">  
+    <div class=""> 
       <br>  
       <div class="form-group">  
-        <label for="txtTextToConvert">Plain Text</label>  
-        <input type="text" class="form-control" placeholder="Enter text you want to encrypt" [(ngModel)]="plainText">  
+        <label for="txtTextToConvert">Environment variable
+        </label><br><br>
+        <input type="text" class="form-control mt-1" placeholder="Environment variable" [(ngModel)]="plainText"><br><br>  
       </div>  
       <div class="form-group">  
-        <label for="txtPassword">Password</label>  
-        <input type="password" class="form-control" placeholder="Enter encryption password" [(ngModel)]="encPassword">  
-      </div>  
+        <label for="txtPassword">Encrypt Password</label><br><br>  
+        <input type="password" class="form-control" placeholder="Encrypt password" [(ngModel)]="encPassword">  
+      </div><br><br>
       <textarea class="form-control" readonly rows="3">{{conversionEncryptOutput}}</textarea>  
-      <br>  
+      <br><br>
       <button type="button" class="btn btn-success float-right" (click)="convertText('encrypt')">Encrypt</button>  
     </div>  
     <!-- <div class="col-sm-6"> 
