@@ -1,27 +1,27 @@
-# EncryptionForm
+## Zara Deliverable
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.3.
+Simple template form to encrypt a enviroment variable.
 
-## Development server
+# Instalation
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+We install the necessary files with
 
-## Code scaffolding
+```javascript
+npm install
+```
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+We use the script start to run the app
 
-## Build
+```javascript
+ng serve --o
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+The browser will automatically open on port 4200 to show the form.
 
-## Running unit tests
+![](https://i.ibb.co/V9ykXJK/cryptform.png)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Thanks for reading!
 
-## Running end-to-end tests
+---
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Aitor Lancharro "Alanch8" ☕
